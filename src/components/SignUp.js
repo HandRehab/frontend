@@ -172,7 +172,7 @@ const SignUp = () => {
                   name="gender"
                   value="female"
                   checked={gender === 'female'}
-                  onChange={(e) => setUsername(e.target.value)}
+                  onChange={(e) => setGender(e.target.value)}
                 />
                 <label htmlFor="check-female">Female</label>
               </div>
@@ -183,7 +183,7 @@ const SignUp = () => {
                   name="gender"
                   value='prefer_not_to_say'
                   checked={gender === 'prefer_not_to_say'}
-                  onChange={(e) => setUsername(e.target.value)}
+                  onChange={(e) => setGender(e.target.value)}
                 />
                 <label htmlFor="check-other">Prefer not to say</label>
               </div>
