@@ -32,10 +32,12 @@ const Login = () => {
             console.log('logged');
 
             const userType = res.data.userRole;
+            const name=res.data.name;
             console.log(userType);
             localStorage.setItem('logged', true);
             localStorage.setItem('username', username);
             localStorage.setItem('user', userType);
+            localStorage.setItem('name',name);
 
             if (userType === 1) {
                 localStorage.setItem('doctorid', res.data.doctorid);

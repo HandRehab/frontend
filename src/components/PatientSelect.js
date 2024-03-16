@@ -16,7 +16,7 @@ const PatientSelect = () => {
     setTimeout(navigate('/'),3000)
     
    }
-  
+  const name = localStorage.getItem('name');
   
 
   return (
@@ -27,7 +27,7 @@ const PatientSelect = () => {
     <div className='patient-body'>
     <div className='patient-heading'>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
-    <h3 className='heading'>Welcome Patient</h3>
+    <h3 className='heading'>Welcome {name}</h3>
       
     <h5 className='sub-heading'>Manage your patient privileges here</h5>
     </div>
