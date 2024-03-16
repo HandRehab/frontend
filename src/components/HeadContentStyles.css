@@ -1,0 +1,33 @@
+div{
+    text-align: center;
+    
+}
+.title{
+    text-align: center;
+    padding-top: 15rem;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 60px;
+    color: white;
+    
+}
+.sub-title{
+    text-align: center;
+    color: white;
+    font-size: large;
+    padding-bottom: 5.9rem;
+    padding-top: 3rem;
+}
+.get-btn{
+    font-size: larger;
+    border-radius: 25px;
+    border: 2px solid #fff; 
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}

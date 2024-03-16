@@ -1,0 +1,9 @@
+.main1{
+    
+    padding-bottom: 10rem;
+    
+}
+body .gradient-bg{
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(184,70,45,1) 35%, rgba(72,5,140,1) 100%);
+}

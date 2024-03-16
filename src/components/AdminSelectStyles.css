@@ -1,0 +1,42 @@
+
+.admin-body{
+    background-image: url("../assets/adminbg.jpg");
+    max-height: 100vh;
+}
+.admin-heading{
+    width: 100vh;
+    overflow: hidden;
+    margin-top: 100px;
+    
+}
+.admin-heading .heading{
+    font-size: 50px;
+    font-weight:500;
+    color: #498589;
+}
+.admin-heading .sub-heading{
+    color: #498589;
+    font-size: 20px;
+    font-weight: 400;
+}
+.admin-container{
+    padding-top: 2rem;
+    display: grid;
+    
+}
+ .admin-btn{
+    background:#498589;
+    width: 200px;
+    color: #f5fdfb;
+    padding: 40px 50px;
+    margin: 15px 0px 25px 200px;
+    border-radius: 24px;
+}
+.admin-btn i,label{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.admin-btn:hover{
+    background:#31696d;
+}

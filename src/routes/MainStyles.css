@@ -1,0 +1,25 @@
+.main-container{
+    background: linear-gradient(90deg, rgba(184,70,45,1) 35%, rgba(72,5,140,1) 100%);
+    color: white;
+    text-decoration: none;
+    display: grid;
+    
+}
+
+.nav{
+    background: linear-gradient(90deg, rgba(184,70,45,1) 35%, rgba(72,5,140,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    
+    
+    z-index: 10;
+}
+.components{
+   padding-top: 10rem;
+
+   align-items: center;
+   font-weight: 100;
+
+}
