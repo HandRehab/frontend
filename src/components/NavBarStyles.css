@@ -49,6 +49,25 @@
     justify-content: space-between;   
     list-style-type: none;
 }
+.profile-icon{
+    border: 2px solid;
+    font-size: x-large;
+    border-radius: 50px;
+    padding: 3px;
+    margin-left: 7rem;
+}
+.back-button{
+    color: white;
+    border: 2px solid;
+    padding: 3px;
+    border-radius: 50px;
+    
+}
+.back-button label{
+    font-size: large;
+    padding: 5px;
+}
+
 /*
 .log-out{
   border: 2px solid;

@@ -11,6 +11,7 @@ import PatientReg from './routes/PatientReg';
 import DocReg from './routes/DocReg';
 import Home from './routes/Home';
 import PatietHome from "./routes/PatientHome"
+import Profile from './routes/Profile';
 const App = () => {
   return (
     <>
@@ -24,6 +25,7 @@ const App = () => {
     <Route path="/Patient" element={<PatietHome/>}/>
     <Route path='/Reg' element={<PatientReg/>}/>
     <Route path='/DocReg' element={<DocReg/>}/>
+    <Route path="/Profile" element={<Profile/>}/>
     </Routes>
     </>
   )
