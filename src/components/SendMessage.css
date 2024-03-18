@@ -1,0 +1,56 @@
+.containerMessage {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 200px;
+    background:#498589; 
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(18, 17, 17, 0.2);
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .messagehead {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+  }
+  
+  .form-groupMessage {
+    
+    margin-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 8px;
+    color: #e2e7ee;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .textarea {
+    border-radius: 10px;
+  }
+  
+  .messagebutton{
+    padding: 2px 20px;
+    width: auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #c9cfca;
+    border: none;
+    margin-left: 0.5px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: none;
+    transition: background-color 0.3s ease;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .messagebutton:hover {
+    background:#498589; 
+  }
+  .messagehead{
+    color: #ffffff;
+   }

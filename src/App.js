@@ -12,7 +12,9 @@ import DocReg from './routes/DocReg';
 import Home from './routes/Home';
 import PatietHome from "./routes/PatientHome"
 import Assesment from './routes/Assessment';
-import Hand from './routes/Hand';
+import Rehabilitation from './routes/Rehabilitation';
+import DoctorChat from './routes/DoctorChat';
+
 const App = () => {
   return (
     <>
@@ -27,7 +29,8 @@ const App = () => {
     <Route path='/Reg' element={<PatientReg/>}/>
     <Route path='/DocReg' element={<DocReg/>}/>
     <Route path='/Assessment' element={<Assesment/>}/>
-    <Route path='/Hand' element={<Hand/>}/>
+    <Route path='/Rehabilitation' element={<Rehabilitation/>}/>
+    <Route path='/DoctorChat' element={<DoctorChat/>}/>
     </Routes>
     </>
   )
