@@ -11,6 +11,10 @@ import PatientReg from './routes/PatientReg';
 import DocReg from './routes/DocReg';
 import Home from './routes/Home';
 import PatietHome from "./routes/PatientHome"
+import Assesment from './routes/Assessment';
+import Rehabilitation from './routes/Rehabilitation';
+import DoctorChat from './routes/DoctorChat';
+
 import Profile from './routes/Profile';
 const App = () => {
   return (
@@ -25,6 +29,9 @@ const App = () => {
     <Route path="/Patient" element={<PatietHome/>}/>
     <Route path='/Reg' element={<PatientReg/>}/>
     <Route path='/DocReg' element={<DocReg/>}/>
+    <Route path='/Assessment' element={<Assesment/>}/>
+    <Route path='/Rehabilitation' element={<Rehabilitation/>}/>
+    <Route path='/DoctorChat' element={<DoctorChat/>}/>
     <Route path="/Profile" element={<Profile/>}/>
     </Routes>
     </>
