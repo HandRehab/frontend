@@ -8,7 +8,7 @@ const PatientSelect = () => {
     const handleAssessmentClick = () => {
     
       // Navigate to the assessment 
-      navigate('/Reg');
+      navigate('/Assessment');
     };
    function logOut(){
     alert("logging out!!")

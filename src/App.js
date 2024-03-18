@@ -11,6 +11,8 @@ import PatientReg from './routes/PatientReg';
 import DocReg from './routes/DocReg';
 import Home from './routes/Home';
 import PatietHome from "./routes/PatientHome"
+import Assesment from './routes/Assessment';
+import Hand from './routes/Hand';
 const App = () => {
   return (
     <>
@@ -24,6 +26,8 @@ const App = () => {
     <Route path="/Patient" element={<PatietHome/>}/>
     <Route path='/Reg' element={<PatientReg/>}/>
     <Route path='/DocReg' element={<DocReg/>}/>
+    <Route path='/Assessment' element={<Assesment/>}/>
+    <Route path='/Hand' element={<Hand/>}/>
     </Routes>
     </>
   )
